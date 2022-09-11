@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import List from './List';
 
 function Contacts() {
   return (
@@ -8,4 +9,4 @@ function Contacts() {
   )
 }
 
-export default Contacts
+export default Contacts;
