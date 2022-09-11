@@ -1,4 +1,4 @@
-import Contacts from "./components/Contacts";
+import Contacts from "./components/Contacts/index.js";
 
 function App() {
   return (
