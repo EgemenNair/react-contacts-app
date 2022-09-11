@@ -8,7 +8,7 @@ function Contacts() {
   return (
     <div>
       Contacts Test
-      <List />
+      <List contacts={contacts} />
       <Form contacts={contacts} addContact={setContacts} />
     </div>
   );
