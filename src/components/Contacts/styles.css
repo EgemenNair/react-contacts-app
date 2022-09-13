@@ -28,11 +28,11 @@ li {
 }
 
 .list > li {
-    background-color: antiquewhite;
-    padding: 5px;
-    margin-bottom: 2px;
-    display: flex;
-    justify-content: space-between;
+  background-color: antiquewhite;
+  padding: 5px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn {
@@ -41,7 +41,7 @@ li {
   padding: 5px 0;
 }
 
-.btn > button  {
+.btn > button {
   padding: 5px;
   width: 60px;
 }

@@ -21,13 +21,21 @@ function List({ contacts }) {
 
       <ul className="list">
         {filterText
-          ? filtered.map((contact, i) => <li key={i}><span>{contact.fullname}</span><span>{contact.phone_number}</span></li>)
-          : contacts.map((contact, i) => <li key={i}><span>{contact.fullname}</span><span>{contact.phone_number}</span></li>)}
+          ? filtered.map((contact, i) => (
+              <li key={i}>
+                <span>{contact.fullname}</span>
+                <span>{contact.phone_number}</span>
+              </li>
+            ))
+          : contacts.map((contact, i) => (
+              <li key={i}>
+                <span>{contact.fullname}</span>
+                <span>{contact.phone_number}</span>
+              </li>
+            ))}
       </ul>
-      
-      <p>
-        Total Contacts ({filtered.length})
-      </p>
+
+      <p>Total Contacts ({filtered.length})</p>
     </div>
   );
 }

@@ -1,3 +1,7 @@
+# A Simple Contacts App
+
+A simple contacts app using react, contacts can be filtered with either name or phone number.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 
 const initialFormValues = { fullname: "", phone_number: "" };
 
-function Form( {addContact, contacts} ) {
+function Form({ addContact, contacts }) {
   const [form, setForm] = useState(initialFormValues);
 
   useEffect(() => {
     setForm(initialFormValues);
-  },[contacts]);
+  }, [contacts]);
 
   const onChangeInput = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -20,7 +20,7 @@ function Form( {addContact, contacts} ) {
       return false;
     }
 
-    addContact([...contacts ,form]);
+    addContact([...contacts, form]);
   };
 
   return (
