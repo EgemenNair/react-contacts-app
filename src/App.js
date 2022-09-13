@@ -1,4 +1,5 @@
 import Contacts from "./components/Contacts/index.js";
+import "./App.css"
 
 function App() {
   return (
