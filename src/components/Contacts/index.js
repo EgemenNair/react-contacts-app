@@ -4,24 +4,7 @@ import List from "./List";
 import "./styles.css";
 
 function Contacts() {
-  const [contacts, setContacts] = useState([
-    {
-      fullname: 'Barış',
-      phone_number: '123123'
-    },
-    {
-      fullname: 'Ahmet',
-      phone_number: '456465'
-    },
-    {
-      fullname: 'Ceyda',
-      phone_number: '155155'
-    },
-    {
-      fullname: 'Deniz',
-      phone_number: '112112'
-    }
-  ]);
+  const [contacts, setContacts] = useState([]);
 
   return (
     <div id="container">
